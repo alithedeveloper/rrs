@@ -1,0 +1,23 @@
+## MAC OS
+.DS_Store
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.swp
+
+# PHPStorm
+.idea/
+
+## PHPDoc files
+*.ini
+
+## Composer
+composer.lock
+vendor
+
+## Build
+build/
