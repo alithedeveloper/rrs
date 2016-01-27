@@ -1,0 +1,27 @@
+{
+    "name": "tureki/rrs",
+    "description": "React Render Server for Laravel/Lumen",
+    "authors": [{
+        "name": "tureki",
+        "email": "tureki@me.com"
+    }],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.0.*|5.1.*|5.2.*"
+    },
+    "require-dev": {
+        "laravel/framework": "5.0.*|5.1.*|5.2.*",
+        "phpunit/phpunit": "~5.0",
+        "mockery/mockery": "^0.9.4",
+        "squizlabs/php_codesniffer": "^2.4",
+        "jakub-onderka/php-parallel-lint": "^0.9.1",
+        "satooshi/php-coveralls": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tureki\\RRS\\": "src",
+            "Tureki\\RRS\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "stable"
+}
