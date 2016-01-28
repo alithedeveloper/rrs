@@ -16,6 +16,7 @@ If this package helpful and save your time. Do not forget star it :)
 ## Requirements
 * PHP 5.5.9+
 * Node 0.10.0+
+* Laravel/Lumen 5.0+
 
 
 ## Installation

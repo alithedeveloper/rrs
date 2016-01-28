@@ -1,6 +1,6 @@
 {
     "name": "tureki/rrs",
-    "description": "React Render Server for Laravel/Lumen",
+    "description": "RRS is package for generate React Render Server Boilerplate with Laravel/Lumen.",
     "keywords": [ "react", "reactjs", "laravel", "lumen"  ],
     "license": "MIT",
     "authors": [{
