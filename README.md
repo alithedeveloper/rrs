@@ -72,11 +72,11 @@ php artisan vendor:publish --tag=rrs
 
 > **Lumen Project:** You need install [irazasyed/larasupport](https://github.com/irazasyed/larasupport) package before run `artisan vendor:publish` command. Otherwise, you have to manual copy package file.
 
-The default configuration file at `config/react-render-server.php`, ReactRenderServer will been generated at `resource/assets/rrs` directory.
+The default configuration file at `config/react-render-server.php`, ReactRenderServer will been generated at `resources/assets/rrs` directory.
 
 Then install ReactRenderServer require package.
 ```shell
-npm install -prefix resource/assets/rrs
+npm install -prefix resources/assets/rrs
 ```
 
 And that's it!
@@ -85,7 +85,7 @@ And that's it!
 ## Usage
 Once npm has installed, You need start **RRS**.
 ```shell
-npm start -prefix resource/assets/rrs
+npm start -prefix resources/assets/rrs
 ```
 > **Note:** You can use `PM2` or other process manager tool to manage RRS.
 
@@ -120,11 +120,11 @@ $app->get('/', function () {
 
 
 ## ReactJS Component
-You can create React`{.js,.jsx}` files at `resource/assets/rrs/src`.
+You can create React`{.js,.jsx}` files at `resources/assets/rrs/src`.
 
 For example:
 
-Create `Button.jsx` at `resource/assets/rrs/src/ui/`.
+Create `Button.jsx` at `resources/assets/rrs/src/ui/`.
 ```js
 import React from 'react';
 
@@ -137,7 +137,7 @@ export class Button extends React.Component {
 module.exports = HelloWorld;
 ```
 
-Create `App.jsx` at `resource/assets/rrs/src/`.
+Create `App.jsx` at `resources/assets/rrs/src/`.
 ```js
 import React from 'react';
 import Button from 'ui/Button';
@@ -165,7 +165,7 @@ Get `Button` component:
 ReactRenderServer::component('ui/Button');
 ```
 
-> **Note:** If you are JS professional. You can explore `resource/assets/rrs` directory change **RRS** config.
+> **Note:** If you are JS professional. You can explore `resources/assets/rrs` directory change **RRS** config.
 
 
 ## Workflow With Elixir
