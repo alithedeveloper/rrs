@@ -1,10 +1,17 @@
 {
     "name": "tureki/rrs",
-    "description": "React Render Server for Laravel/Lumen",
+    "description": "RRS is package for generate React Render Server Boilerplate with Laravel/Lumen.",
+    "keywords": [ "react", "reactjs", "laravel", "lumen"  ],
+    "license": "MIT",
     "authors": [{
         "name": "tureki",
-        "email": "tureki@me.com"
+        "email": "tureki@me.com",
+        "homepage": "https://github.com/tureki"
     }],
+    "support": {
+        "issues": "https://github.com/tureki/rrs/issues",
+        "source": "https://github.com/tureki/rrs"
+    },
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "5.0.*|5.1.*|5.2.*"

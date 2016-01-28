@@ -20,7 +20,7 @@ class ReactRenderServerServiceProvider extends ServiceProvider
             __DIR__ . '/config/rrs/package.json' => base_path('resources/assets/rrs/package.json'),
             __DIR__ . '/config/rrs/server.js' => base_path('resources/assets/rrs/server.js'),
             __DIR__ . '/config/rrs/src/HelloWorld.jsx' => base_path('resources/assets/rrs/src/HelloWorld.jsx'),
-        ]);
+        ], 'rrs');
     }
 
     /**
